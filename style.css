@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 14px;
+  background: #F8F8FF;
+  font-family: 'arial';
+  font-weight: bold;
+}
+.header {
+  margin: 0 auto;
+  background: #1a305f;
+  padding: 15px 30px;
+}
+.hidden {
+    display: none;
+  }
+.header .login a{
+  float:right;
+  font-size: 25px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  position: absolute;
+  right: 0;
+  bottom: -110px;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+.header .login a:hover{
+color: #6080c4;
+text-decoration: underline;
+}
+.form-container{
+  width: 100%;
+  margin: 0 auto;
+}
+.title {
+  margin: 50px auto 0px;
+  color: white;
+  background: #1a305f;
+  text-align: center;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px;
+}
+.tittle h2{font-size: 30px;    }
+
+.form-container form  label{display: block; margin-top: 10px;}
+.form-container form{padding: 15px; border: 1px solid #B0C4DE; border-radius: 0px 0px 10px 10px;}
+.form-container form .input-group{display:block !important;}
+.form-container form input{ width: 100%;padding: 10px 15px; border-radius: 5px; border: 1px solid  #B0C4DE}
+
+  .form-container form button{margin-top: 10px;background:none;
+    transition: all .3s ease-out;
+    border: 1px solid #1a305f;
+    color: #333;
+    padding: 15px 30px ;
+    font-weight: bold;
+  }
+  .input-group button:hover{
+    color: #fff;
+    background-color: #1a305f;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+.input-group select {
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 5px;
+}
+.input-group select option:nth-child(n), .input-group select:nth-child(n){
+  font-weight: bold;
+}
+
+@media(min-width: 768px){
+  .header .logo img{width:auto; margin:0 auto; }
+
+  .form-container{
+    width: 40%;
+  }
+}
+
